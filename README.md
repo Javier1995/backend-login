@@ -10,6 +10,7 @@
 8. Execute `composer vm:start` command to run laravel sail
 9. Execute  `composer app:install` command to install app
 10. Access site at <http://localhost> *(:warning: in case another local site is using port 80 you will need to change it in env. file)*
+11. Connect React app in  <http://localhost:300>
 
 
 
