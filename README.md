@@ -70,7 +70,8 @@ Email needs to be run by using :
 [Users](http://localhost:82/users)
 ![image](https://github.com/user-attachments/assets/547fd2ad-1c93-4abb-ab16-31cc21b6ccac)
 [Edit User](http://localhost:82/users/1/edit)
-![image](https://github.com/user-attachments/assets/d88e18ff-6ec2-4794-9627-a1bc9e5663eb)
+![Screenshot 2025-01-22 143921](https://github.com/user-attachments/assets/61daf94e-f579-4915-945a-1da2bd219285)
+
 
 
 
