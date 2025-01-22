@@ -8,7 +8,7 @@ Route::get('/', function () {
     return ['Laravel' => app()->version()];
 });
 
-Route::get('/user', [\App\Http\Controllers\UserController::class, 'listUsers']);
+Route::get('/user', [UserController::class, 'listUsers']);
 
 Route::get('/find-year-with-most-people-alive', function () {
     $yearList1 =  [[1951, 2018], [1981, 2000], [1980, 1982], [1983, 1984]];
