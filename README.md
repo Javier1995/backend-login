@@ -32,16 +32,16 @@ This project uses custom scripts defined in the `composer.json` file to run comm
 
 ## Example Workflow
 
-1. **Start the environment:**
+ **Start the environment:**
    ```bash
    composer vm:start
    ```
-## Run email command manually
+ **Run email command manually**
    ```bash
     ./vendor/bin/sail artisan app:send-daily-email
    ```
 
-## Run scheduled email for users at 00:00:00
+ **Run scheduled email for users at 00:00:00**
   ```bash
    ./vendor/bin/sail artisan artisan schedule:work
   ```
