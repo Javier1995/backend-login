@@ -66,7 +66,9 @@ Email needs to be run by using :
 ![Screenshot 2025-01-22 143446](https://github.com/user-attachments/assets/bdf978ec-1e1d-4aee-b6fa-37285ac51692)
 [Products](http://localhost:82/products)
 ![Screenshot 2025-01-22 143430](https://github.com/user-attachments/assets/00b3abd6-8b30-4f20-b8ca-057c2103f6e6)
-[Products](http://localhost:82/users/1/edit)
+[Users](http://localhost:82/users)
+![image](https://github.com/user-attachments/assets/547fd2ad-1c93-4abb-ab16-31cc21b6ccac)
+[Edit User](http://localhost:82/users/1/edit)
 ![image](https://github.com/user-attachments/assets/d88e18ff-6ec2-4794-9627-a1bc9e5663eb)
 
 
