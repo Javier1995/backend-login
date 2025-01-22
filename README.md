@@ -48,10 +48,16 @@ This project uses custom scripts defined in the `composer.json` file to run comm
 
 ## Screenshots
  ### Task 1:
+[Find the Year with Most People Alive](http://localhost:82/find-year-with-most-people-alive)
 ![task 1](screenshots/task1.png)
 
  ### Task 2:
+[Blade task](http://localhost:82/user)
 ![task 1](screenshots/blade_lists.png)
+Email needs to be run by using :   
+  ```bash
+   ./vendor/bin/sail artisan artisan schedule:work
+  ```
 ![emails 2](screenshots/email.png)
 
 
