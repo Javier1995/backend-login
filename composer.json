@@ -35,7 +35,16 @@
         }
     },
     "scripts": {
-        "app:run": "vendor/bin/sail up -d",
+        "vm:start": "vendor/bin/sail up -d",
+        "table:migrate": "./vendor/bin/sail artisan migrate",
+        "db:seed":"./vendor/bin/sail artisan db:seed",
+        "vm:stop":"./vendor/bin/sail stop",
+        "vm:restart":"./vendor/bin/sail restart",
+        "app:install":[
+
+            "@table:migrate",
+            "@db:seed"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
