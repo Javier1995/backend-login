@@ -12,6 +12,7 @@
 10. Access site at <http://localhost> *(:warning: in case another local site is using port 80 you will need to change it in env. file)*
 
 
+
  ### Available Commands
 
 This project uses custom scripts defined in the `composer.json` file to run common tasks such as managing the development environment, database, and application setup.
@@ -52,5 +53,6 @@ This project uses custom scripts defined in the `composer.json` file to run comm
  ### Task 2:
 ![task 1](screenshots/blade_lists.png)
 ![emails 2](screenshots/email.png)
+
 
 
