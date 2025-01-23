@@ -57,7 +57,7 @@ This project uses custom scripts defined in the `composer.json` file to run comm
 ![task 1](screenshots/blade_lists.png)
 Email needs to be run by using :   
   ```bash
-   ./vendor/bin/sail artisan artisan schedule:work
+   ./vendor/bin/sail artisan schedule:work
   ```
 ![emails 2](screenshots/email.png)
 
